@@ -1,7 +1,7 @@
 import json
 import os
 
-DICT_FILE_PATH = 'dict.json'
+DICT_FILE_PATH = 'assignment1/dict.json'
 DEFAULT_DICT = {"apple": "omena", "pear": "päärynä", "banana": "banaani"}
 
 def get_dictionary_data(path: str) -> dict[str, str]:
